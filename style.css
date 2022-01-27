@@ -14,7 +14,7 @@ section{
 .banner{
     position: relative;
     min-height: 100vh;
-    background: url()
+    background:'images/Mountains.jpg';
     background-size: cover;
     background-position: right;
     display: flex;
@@ -24,7 +24,7 @@ section{
 
 .banner h2{
     font-size: 3em;
-    color: rgb(137, 246, 164);
+    color: rgb(56, 55, 55);
     font-weight: 500;
     line-height: 1.5 em;
 }
@@ -36,7 +36,7 @@ section{
 
 .banner h3{
     font-size: 3em;
-    color: rgb(137, 246, 164);
+    color: rgb(56, 55, 55);
     font-weight: 500;
     line-height: 1.5 em; 
 }
@@ -75,7 +75,7 @@ header .sticky{
 }
 
 header .logo{
-    color: rgb(137, 246, 164);
+    color: rgb(56, 55, 55);
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -84,7 +84,7 @@ header .logo{
 }
 
 header .sticky .logo{
-    color:#111;
+    color:rgb(56, 55, 55);
 
 }
 
@@ -106,7 +106,7 @@ header ul li a{
     position:relative;
     display:inline-block;
     margin: 0 15px;
-    color:rgb(137, 246, 164);
+    color:#111;
     text-decoration: none;
 }
 
@@ -161,7 +161,7 @@ margin-bottom:10px ;
 }
 
 .services .content .servicesBx{
-    padding: 40px 20px;
+    padding: 60px 60px;
     background: #222;
     color: #fff;
     max-width: 340px;
