@@ -12,11 +12,11 @@
 
 <body>
     <header>
-        <a href= "#" class="logo">Portfolio</a>
+        <a href= "#work" class="logo">Portfolio</a>
         <div class ="toggle" onclick="toggleMenu();"></div>
         <ul class = "menu">
             <li><a href="#home" onclick="toggleMenu();">Home</a></li>
-            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#aboutMe" onclick="toggleMenu();">About</a></li>
             <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
             <li><a href="#work" onclick="toggleMenu();">Work</a></li>
             <li><a href="https://docs.google.com/document/d/1DnD47fumz_6wknqTMoOVuFhJEWPB_PyP/edit?usp=sharing&ouid=105229652904617955034&rtpof=true&sd=true" onclick="toggleMenu();" target="_blank">Resume</a></li>
@@ -27,16 +27,16 @@
         <div class ="textBx">
             <h2>Hello, I'm <br> <span>Silvia Trejo.</span></h2>
             <h3>I'm an aspiring Full Stack Web Developer.</h3>
-            <a href="#home" class="btn">About Me</a>
+            <a href="#aboutMe" class="btn">About Me</a>
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="about" id="aboutMe">
         <div class="heading">
             <h2>About Me</h2>
             <br/>
         </div>
-        <div class="content">
+        <div class="content" >
             <div class="contentBx">
                 <h3>I'm a Full Stack Web Developer.</h3><br/>
                 <p> Hello! My name is Silvia Trejo. I completed a Web Development Bootcamp at the Georgia Institute of Technology. I have a Bachelor of Arts in International Affairs from Kennesaw State University. I completed my graduate course work at Georgia State University in Public Policy. I am an avid reader and a lifelong learner. I love hiking and photography which makes Georgia a great place to live. 
@@ -51,6 +51,8 @@
 
         </div>
     </section>
+
+        
     <section class="services" id="skills">
         <div class="heading white">
             <h2>Skills</h2>
@@ -95,7 +97,6 @@
     <section class="work" id="work">
         <div class="heading">
             <h2>My Latest Work</h2>
-            <p> You can view some of my latest deployed projects here along with their repos in github.</p>
         </div>
         <div class = "content">
             <div class="workBx">
@@ -119,7 +120,6 @@
                 <a href="https://sytrejo.github.io/workDaySceduler/" class="btn" target="_blank">Deployed</a>
                 <a href="https://github.com/sytrejo/workDaySceduler" class="btn" target="_blank">Repo</a>   
             </div>
-            
 
             <div class="workBx">
                 <h3>Timed Quiz App</h3>
@@ -132,11 +132,11 @@
             <a href = "#" class = "btn">View More </a>
         </div>
     </section>
+           
 
     <section class="contact" id="contact">
         <div class="heading">
             <h2>Contact Me</h2>
-            <p>You can contact me via e-mail or sns.</p>
         </div>
         <div class="content">
             <div class = "contactInfo">
@@ -144,8 +144,22 @@
                 <div class="contactInfoBx">
                     <div class="box">
                         <div class="text">
-                            <h3>Address: </h3>
-                            <p>Memorial Parkway NW <br> Kennesaw, Georgia,<br> 30152 </p>
+                            <h3>LinkedIn:  </h3>
+                            <p><a href="https://www.linkedin.com/in/silvia-trejo/" target="_blank"> https://www.linkedin.com/in/silvia-trejo/</a></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="text">
+                            <h3>Github:  </h3>
+                            <p><a href="https://github.com/sytrejo" target="_blank"> sytrejo</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="text">
+                            <h3>Location: </h3>
+                            <p>Atlanta, Georgia</p>
                         </div>
                     </div>
 
@@ -162,10 +176,16 @@
                             <p>s.y.trejo26@gmail.com</p>
                         </div>
                     </div>
+
+
+
+       
+
+                    
                 </div>
             </div>
             <div class="formBx">
-                <form>
+                <form action="mailto:s.y.trejo26@gmail.com" method="get" enctype="text/plain">
                     <h3>Message Me</h3>
                     <input type="text" name="" placeholder="Full Name">
                     <input type="email" name="" placeholder="Email">
