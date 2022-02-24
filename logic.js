@@ -9,3 +9,12 @@ function toggleMenu(){
     menu.classList.toggle('active');
 }
 });
+
+
+$("#more").click(function() {
+    $('.hidden').removeClass("hidden");
+  });
+
+  $("#less").click(function() {
+    $('.showless').addClass("hidden");
+  });
